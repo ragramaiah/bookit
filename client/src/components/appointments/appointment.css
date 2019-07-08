@@ -1,0 +1,107 @@
+.Train {
+    color: rgb(131, 64, 33);
+    cursor: 'pointer';
+    -webkit-animation: Train 2s infinite alternate;
+          animation: Train 2s infinite alternate;
+  }
+
+  .Car {
+    color: rgb(20, 95, 145);
+    cursor: 'pointer';
+    -webkit-animation: Train 2s infinite alternate;
+          animation: Train 2s infinite alternate;
+  }
+
+  .Movie {
+    color: rgb(15, 17, 17);
+    cursor: 'pointer';
+    -webkit-animation: Movie 5s infinite linear;
+          animation: Movie 5s infinite linear;
+  }
+
+  .Flight {
+    color: rgb(193, 209, 209);
+    cursor: 'pointer';
+    -webkit-animation: Movie 5s infinite alternate;
+          animation: Movie 5s infinite alternate;
+  }
+
+  .Doctor {
+    cursor: 'pointer';
+    -webkit-animation: header-3 2s infinite alternate-reverse;
+    animation:  header-3 2s infinite alternate-reverse;
+  }
+
+  .header-3 {
+    color: rgb(77, 53, 71);
+    width: 103%;
+    -webkit-animation: header-3 1s infinite alternate-reverse;
+          animation:  header-3 1s infinite alternate-reverse;
+    
+  }
+
+  .header-2-flight {
+    color: rgb(193, 209, 209);
+    -webkit-animation: header-3 0s infinite alternate-reverse;
+          animation:  header-3 0s infinite alternate-reverse;
+  }
+
+  .header-2-train {
+    color: rgb(131, 64, 33);
+    -webkit-animation: header-3 0s infinite alternate-reverse;
+          animation:  header-3 0s infinite alternate-reverse;
+  }
+
+  .header-2-car {
+    color: rgb(20, 95, 145);
+    -webkit-animation: header-3 0s infinite alternate-reverse;
+          animation:  header-3 0s infinite alternate-reverse;
+  }
+
+  .header-2-movie {
+    color: rgb(15, 17, 17);
+    -webkit-animation: header-3 0s infinite alternate-reverse;
+          animation:  header-3 0s infinite alternate-reverse;
+  }
+
+  .header-2-doctor {
+    -webkit-animation: header-3 0s infinite alternate-reverse;
+          animation:  header-3 0s infinite alternate-reverse;
+  }
+
+  .router{
+    cursor: 'pointer';
+  }
+  
+  @keyframes header-3 {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+    }
+  }
+  
+  @keyframes Train {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+    }
+  }
+  
+  @keyframes Movie {
+    0% {
+      -webkit-transform: rotate(1);
+              transform: rotate(1);
+    }
+    100% {
+      -webkit-transform: rotate(180d)deg;
+              transform: rotate(180deg);
+    }
+  }
