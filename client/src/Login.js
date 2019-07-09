@@ -17,7 +17,7 @@ class LogIn extends React.Component {
     e.preventDefault();
 
     this.setState({ submitted: true });
-    const { username, password } = this.state;
+    //const { username, password } = this.state;
   };
 
   render() {

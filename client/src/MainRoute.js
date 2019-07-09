@@ -1,6 +1,6 @@
 import React from "react";
 
-import LogIn from "./LogIn";
+import Login from "./Login";
 import { Route, Switch } from "react-router-dom";
 import { PrivateRoute } from "./PrivateRoute";
 import App from "./App";
@@ -10,7 +10,7 @@ import Carbooking from "./components/booking/car/carbooking";
 import Moviebooking from "./components/booking/movie/moviebooking";
 import Booking from "./components/booking/booking";
 
-class MaineRoute extends React.Component {
+class MainRoute extends React.Component {
   render() {
     return (
       <div className="jumbotron">
@@ -19,7 +19,7 @@ class MaineRoute extends React.Component {
             <Switch>
               <div>
                 <PrivateRoute exact path="/" component={App} />
-                <Route path="/login" component={LogIn} />
+                <Route path="/login" component={Login} />
                 <Route path="/register" component={RegisterPage} />
                 <Route path="/appointments" component={Appointments} />
                 <Route path="/booking" component={Booking} />
@@ -34,4 +34,4 @@ class MaineRoute extends React.Component {
   }
 }
 
-export default MaineRoute;
+export default MainRoute;

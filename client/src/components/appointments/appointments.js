@@ -1,13 +1,13 @@
 import React, { Component } from "react";
  
-import { IoIosAirplane } from "react-icons/io";
-import { IoIosCar } from "react-icons/io";
-import { IoIosFilm } from "react-icons/io";
+// import { IoIosAirplane } from "react-icons/io";
+// import { IoIosCar } from "react-icons/io";
+// import { IoIosFilm } from "react-icons/io";
 import { GoPerson } from "react-icons/go";
-import { IoIosTrain } from "react-icons/io";
+// import { IoIosTrain } from "react-icons/io";
 import './appointment.css';
-import { Route } from 'react-router-dom';
-import Alert from '../alert/Alert';
+// import { Route } from 'react-router-dom';
+// import Alert from '../alert/Alert';
 class Appointments extends Component {
 
   constructor() {

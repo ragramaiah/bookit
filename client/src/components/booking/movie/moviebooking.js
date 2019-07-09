@@ -22,13 +22,13 @@ async componentDidMount() {
 }
 render()
 {
-  const {groups, isLoading} = this.state;
+  let {groups, isLoading} = this.state;
 
   if (isLoading) {
     return <p>Loading...</p>;
   }
 
-  if(groups==isUndefined){
+  if(groups===isUndefined){
       groups=[];
   }
 

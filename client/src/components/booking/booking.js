@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { IoIosAirplane } from "react-icons/io";
 import { IoIosCar } from "react-icons/io";
 import { IoIosFilm } from "react-icons/io";
-import { GoPerson } from "react-icons/go";
+// import { GoPerson } from "react-icons/go";
 import { IoIosTrain } from "react-icons/io";
 import './booking.css';
 import { Route } from 'react-router-dom';

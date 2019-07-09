@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
     "axios": "^0.19.0",
     "history": "^4.9.0",
     "npm": "^6.9.0",
     "radium": "^0.25.1",
-    "react": "^16.8.4",
     "react-alert": "^5.4.0",
     "react-burger-menu": "^2.6.5",
     "react-copyright": "0.0.1",
-    "react-dom": "^16.8.4",
     "react-icons": "^3.5.0",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
     "sweetalert2": "^8.8.1"
   },
   "scripts": {
